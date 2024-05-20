@@ -3,9 +3,11 @@ import AddProject from "./assets/components/AddProject";
 
 function App() {
   return (
-    <main className="h-screen my-8">
+    <main className="h-screen flex">
       <SideBarProject />
-      <AddProject />
+      <div className="flex-grow p-4">
+        <AddProject />
+      </div>
     </main>
   );
 }
